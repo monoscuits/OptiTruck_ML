@@ -1,0 +1,12 @@
+SO Here we go, it is a Machine Learning microservice that I have created using flaskApi in python.
+It is to be used with the main server forming a req-res relation aka API calls.
+I have mentioned about the format of request to be fed and the format of response that will be emitted back!
+
+Please go through every files and remove personal notes and comments once you guys get the meaning of the scripts.
+
+
+TO LAUNCH THE API STANDALONE :
+
+    uvicorn main:app --reload || python -m uvicorn main:app --reload
+
+then it should show you a local server, just add "/docs" to it inorder to enter the fastApi UI
